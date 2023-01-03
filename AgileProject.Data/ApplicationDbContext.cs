@@ -9,6 +9,7 @@ namespace AgileProject.Data
         {
         }
 
+        public DbSet<UserEntity> Users { get; set; }
         public DbSet<MovieEntity> Movies { get; set; }
         public DbSet<ShowEntity> Shows { get; set; }
         public DbSet<RatingEntity> Ratings { get; set; }
