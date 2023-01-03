@@ -76,6 +76,7 @@ namespace AgileProject.Services.Token
             };
             return tokenResponse;
         }
+        
         private Claim[] GetClaims(UserEntity user)
         {
             var fullName = $"{user.FirstName} {user.LastName}";
